@@ -64,6 +64,8 @@ button:active{
     body {
         width: 100%;
         overflow-x: hidden; /* Prevent horizontal scrolling */
+      background-color = none;
+      zoom = 0;
     }
     .container {
         width: 100%;
