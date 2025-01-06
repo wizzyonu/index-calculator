@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4314ee;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.container{
+    width: 30%;
+    
+ 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+
+}
+.buttons{
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.display{
+    box-sizing: border-box;
+    grid-column: span 4;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-right: 0px;
+    height: 60px;
+}
+button{
+    padding: 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+button:hover{
+    background-color: #1d20d8;
+    color: white;
+    box-shadow: 0 0 10px rgba(22, 24, 145, 0.1)
+}
+.p{
+    background-color: #1d20d8;
+    color: #f3f3f3;
+}
+.equ{
+    background-color: yellow;
+    color: #000;
+}
+@media (max-width: 768px){
+    body {
+        width: 100%;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+        height: 100%;
+        
+    }
+    .display{
+        height: 35%;
+        font-size: 2.5rem;
+    }
+   
+    .buttons{
+       height: 60%;
+        
+    }
+    .class{
+        font-size: 1.5rem;
+    }
+ 
+    
+}
